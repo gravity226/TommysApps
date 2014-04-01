@@ -1,0 +1,70 @@
+// Place all the styles related to the apps controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$font-stack:    Chalkboard, sans-serif;
+$primary-color: #EBEBEB;
+
+
+body {
+  font: 100% $font-stack;
+  background-color: $primary-color;
+  padding: 0;
+  margin: 0;
+}
+
+h1.heading {
+  color: #0F2E4C;
+  font-size: 50px;
+}
+
+div.heading {
+  background-color: #CFCFCF;
+  padding: 10px;
+  margin: 0;
+  overflow: hidden;
+
+
+}
+
+div.main {
+  padding: 10px;
+  margin: 0;
+  overflow: hidden;
+}
+
+// ----------------------------
+// Navigation Bar
+
+div.navi {
+  background-color: #000000;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+  overflow: hidden;
+
+  color: #3399FF;
+}
+
+table.navi {
+  font-size: 20px;
+}
+
+td.logo {
+  height: 15px;
+}
+
+td.ta {
+  padding-left: 10px;
+  padding-right: 20px;
+  vertical-align: middle;
+}
+
+td.navi {
+  // border-left: 2px solid #3399FF;
+  padding-left: 20px;
+  padding-right: 20px;
+  vertical-align: middle;
+}
